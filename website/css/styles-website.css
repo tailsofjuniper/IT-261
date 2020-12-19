@@ -1,0 +1,189 @@
+/* styles for main website*/
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:helvetica;
+}
+.active {
+    color:purple;
+}
+.box {
+    width:600px;
+    margin:auto;
+    background:lightgrey;
+    padding:20px;
+    border:1px solid green;
+}
+.btn{
+    width:90px;
+    height:30px;
+    margin-bottom:20px;
+    color:green;
+}
+.candidates td:nth-child(1),
+.candidates td:nth-child(2){
+    width:150px;
+}
+.candidates td:nth-child(2) {
+    padding-left:20px;
+}
+.center {
+    text-align:center;
+}
+.home {
+    background: lightgrey;
+}
+.home h1 {
+    font-size:3em;
+    font-weight:200;
+    margin-bottom:12px;
+}
+.inner-header{
+    width:940px;
+    margin:20px auto;
+}
+#logo {
+    width:150px;
+    float:left;
+}
+#wrapper {
+    clear:both;
+    width:940px;
+    margin:0 auto;
+    float:right;
+}
+aside {
+    width:340px;
+    float:right;
+    background:lightgrey;
+    border:1px solid cyan;
+    padding:20px;
+    font-family:helvetica;
+}
+blockquote {
+    font-size:1.4em;
+    margin:20px 100px 20px 100px;
+}
+button{
+    width:90px;
+    height:30px;
+    margin-bottom:20px;
+    color:red;
+}
+fieldset {
+    color:pink;
+    padding:10px 15px 10px 10px;
+}
+footer{
+    height:50px;
+    line-height:5px;
+    background-color:slategrey;
+    border-top:1px solid grey;
+    clear:both;
+    font-family:helvetica;
+}
+footer li {
+    float:left;
+    margin-right:30px;
+    list-style-type:none;
+    padding:20px;
+    font-family:helvetica;
+}
+form {
+    max-width:500px;
+    margin:0 auto;
+}
+h1 {
+    font-size:2em;
+    font-weight:200;
+    margin-bottom:9px;
+    text-align:center;
+}
+h2{
+    color:green;
+    text-align:center;
+}
+header {
+    margin-bottom:20px;
+    background:slategrey;
+    overflow:hidden;
+    padding-bottom:20px;
+    font-family:helvetica;
+}
+img {
+    max-width:100%;
+    display:block;
+}
+input{
+    display:block;
+    height:30px;
+    margin-bottom:10px;
+    width:100%;
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    width:100%;
+    height:30px;
+}
+label {
+    display:block;
+    margin-top:5px;
+}
+li {
+    list-style-type:none;
+}
+main {
+    width:580px;
+    float:left;
+    background-color:lightgrey;
+    border:1px solid cyan;
+    font-family:helvetica;
+}
+nav a {
+    color:cyan;
+    text-decoration: none;
+    font-family:helvetica;
+}
+nav li {
+    float:left;
+    margin-left:15px;
+    list-style-type:none;
+    font-family:helvetica;
+}
+nav ul{
+    float:right;
+    margin-top:20px;
+    list-style-type:none;
+    font-family:helvetica;
+}
+p{
+    margin-bottom:20px;
+    text-align:center;
+}
+select {
+    margin-bottom:10px;
+    margin-top:10px;
+    }
+span {
+    display:block;
+    color:red;
+    font-style:italic;
+    font-family:georgia;
+}
+table{
+    border:1px solid cyan;
+    width:500px;
+    padding:20px;
+    margin-bottom:20px;
+}
+textarea{
+    height:120px;
+    margin-bottom: 10px;
+} /*second textarea*/
+ul{
+    list-style-type: none;
+}
